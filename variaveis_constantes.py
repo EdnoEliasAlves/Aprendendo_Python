@@ -1,8 +1,8 @@
 primeiro_nome = "Edno";
 sobrenome = "Elias Alves";
-IDADE = 48;
-peso = 81.9;
-IDADE = 50;
+IDADE = 48; #inteiro
+peso = 81.9; #float
+IDADE = 50; #constante(PROIBIDO ALTERRA O VALOR, que é inicializado na criação da constante)
 
 
 print("DADOS DO FUNCIONÁRIO");
