@@ -1,3 +1,6 @@
+import sys
+
+
 print("\n\tEXEMPLOS")
 # saldo = 600.0
 
@@ -61,5 +64,9 @@ elif opcao == 2:
     else:
         print("SALDO INSUFICIENTE!")
 else:
-    print("Opção Inválida")        
+    sys.exit("O Sistema não reconheceu seu tipo de conta\n* Procure seu Gerente *")        
 
+# EXEPLO COM IF TERNÁRIO
+
+status = "Sucesso" if saldo >= saque else "Falha"
+print(f"{status} ao Realizar Transação")
